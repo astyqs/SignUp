@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="page_wrapper">
+      <header class="header">
+      <div class="header_image_container">
+        <img src="https://static.vecteezy.com/system/resources/previews/042/148/611/non_2x/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.png" alt="logo" />
+      </div>
+      </header>
+      <main class="main_container">
+        <section class="conted_wrapper">
+          <div data-uia="login_page_container" class="login_page_container">
+            <!-- <div class="title_wrapper"> -->
+            <h1>Создать учетную запись</h1>
+          
+          <div 
+          class="login_container">
+            <div class="input_wrapper">
+              <input
+                class="email_input"
+                inputmode="email"
+                type="email"
+                id="email-input"
+                name="email"
+                autocomplete="username"
+                autocapitalize="none"
+                spellcheck="false"
+                required
+                placeholder
+              />
+              <label class="email_label" for="email_input">
+                Введите адрес электронной почты</label
+              >
+            </div>
+            <div class="input_wrapper">
+              <input
+                class="password_input"
+                type="password"
+                id="password-input"
+                name="password"
+                autocomplete="new-password"
+                required
+                placeholder
+              />
+              <label class="password_label" for="password-input">
+                Введите пароль</label
+              >
+            </div>
+            <div class="input_wrapper">
+              <input
+                class="confirm_password_input"
+                type="password"
+                id="confirm-password-input"
+                name="confirm-password"
+                autocomplete="new-password"
+                required
+                placeholder
+              />
+              <label class="confirm_password_label" for="confirm-password-input">
+                Подтвердите пароль</label
+              >
+            </div>
+            <button class="continue_btn" disabled>Продолжить</button>
+          </div>
+          <div class="invalid_email_error_message">
+            <img class="error_icon" src="/assets/error-icon-BaFi8GTB.svg" />
+          </div>
+          <div class="invalid_email_error_message">
+            … <img class="error_icon" src="/assets/error-icon-BaFi8GTB.svg" />
+          </div>
+         
+          <p class="other_page">
+            "У вас уже есть учетная запись?"
+            <a class="other_page_link" href="">Войти</a>
+          </p>
+          <div class="divider-wrapper">
+            <div class="before">
+            <span class="divider">
+              или
+            </span>
+            <div class="after">
+            </div>
+           <button class="social-btn">
+            <span class="social-logo-wrapper">
+            <img class="social-logo" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="Логотип Google">
+            </span>
+            <span class="social-text">
+              Продолжить с Google
+            </span>
+          </button>
+          <button class="social-btn">
+            <span class="social-logo-wrapper">
+              <img class="social-logo" src="https://cdn-icons-png.flaticon.com/512/732/732221.png" alt="Логотип Microsoft">
+            </span>
+            <span class="social-text">
+              Продолжить с Microsoft
+            </span>
+          </button>
+          <button class="social-btn">
+            <span class="social-logo-wrapper">
+              <img class="social-logo" src="https://cdn-icons-png.flaticon.com/512/0/747.png" alt="Логотип Apple">
+              <span class="social-text">
+                Продолжить с Apple
+              </span>
+            </span>
+          </button>
+           </span>
+          </div>
+        </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <a href="https://openai.com/policies/terms-of-use"
+          >Условия использования</a
+        >
+        <span class="separator">…</span>
+        <a href="https://openai.com/policies/privacy-policy"
+          >Политика конфиденциальности</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
