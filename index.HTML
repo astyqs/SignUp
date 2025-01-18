@@ -33,10 +33,10 @@
                 autocapitalize="none"
                 spellcheck="false"
                 required
-                placeholder
+                placeholder="Введите адрес электронной почты"
               />
               <label class="email_label" for="email_input">
-                Введите адрес электронной почты</label
+                email</label
               >
             </div>
             <div class="input_wrapper">
@@ -47,10 +47,10 @@
                 name="password"
                 autocomplete="new-password"
                 required
-                placeholder
-              />
+                placeholder="Введите пароль">
+              
               <label class="password_label" for="password-input">
-                Введите пароль</label
+                password</label
               >
             </div>
             <div class="input_wrapper">
@@ -61,13 +61,14 @@
                 name="confirm-password"
                 autocomplete="new-password"
                 required
-                placeholder
+                placeholder = "Подтвердите пароль"
               />
               <label class="confirm_password_label" for="confirm-password-input">
-                Подтвердите пароль</label
+                confirm password</label
               >
             </div>
-            <button class="continue_btn" disabled>Продолжить</button>
+            <button class="continue_btn">Продолжить</button>
+            <button class="existing_account_btn"> У вас есть учетная запись?</button>
           </div>
           <div class="invalid_email_error_message">
             <img class="error_icon" src="/assets/error-icon-BaFi8GTB.svg" />
@@ -75,10 +76,6 @@
           <div class="invalid_email_error_message">
             … <img class="error_icon" src="/assets/error-icon-BaFi8GTB.svg" />
           </div>
-         
-          <p class="other_page">
-            "У вас уже есть учетная запись?"
-            <a class="other_page_link" href="">Войти</a>
           </p>
           <div class="divider-wrapper">
             <div class="before">
